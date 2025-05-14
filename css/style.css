@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    font-family: 'heGill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #f7eee6;
+    color: #073d9b;
+}
+
+.icon {
+    margin-left: auto; 
+    font-size: 18px; 
+    color: #073d9b;
+    cursor: progress;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    width: 300px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: #c5b8a9;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.avatar1 {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+
+.user-status {
+    display: flex;
+    align-items: center;
+    padding: 10px; 
+    background-color: #f3e5dd;
+    border-radius: 5px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+h6 {
+    margin: 0; 
+    margin-left: 5px;
+}
+
+.contact {
+    display: flex;
+    text-align: right;
+    align-items: center; 
+    justify-content: space-between;
+    padding: 10px; 
+    background-color: #f3e5dd; 
+    border-radius: 5px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    margin-bottom: 10px; 
+    cursor: progress; 
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-image {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.hablemos-button {
+    margin-top: auto;
+    align-self: center;
+    padding: 10px 20px;
+    background-color: #073d9b; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.main-section {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.logo {
+    text-align: center;
+}
+
+
+
